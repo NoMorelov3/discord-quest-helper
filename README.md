@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # ⚙️ Discord Quest Helper
 
 A lightweight JavaScript tool that automates Discord quest progress (watching videos, streaming, or playing apps).
