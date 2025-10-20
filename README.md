@@ -19,7 +19,7 @@ A lightweight JavaScript tool that automates Discord quest progress (watching vi
 
 ## 💡 Usage
 
-1. Open **Discord Developer Tools** → `Console` tab  
+1. Open **Discord Developer Tools** (`ctrl + shift + i`) → `Console` tab  
 2. Paste the contents of `script.js`  
 3. Press **Enter**  
 4. Watch your quest progress update automatically  
