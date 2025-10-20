@@ -11,7 +11,7 @@ let FluxDispatcher = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto
 let api = Object.values(wpRequire.c).find(x => x?.exports?.tn?.get).exports.tn;
 
 // ✨ Author tag
-console.log("⚙️ Script made by no_more ⚙️");
+console.log("⚙️ Script made by EHqador ⚙️");
 
 let quest = [...QuestsStore.quests.values()].find(x => 
 	x.id !== "1248385850622869556" && 
@@ -49,7 +49,7 @@ if (!quest) {
 				await new Promise(resolve => setTimeout(resolve, interval * 1000));
 			}
 			console.log("Quest completed!");
-			console.log("✅ Script made by no_more ✅");
+			console.log("✅ Script made by EHqador ✅");
 		};
 		fn();
 		console.log(`🎬 Spoofing video for ${applicationName}.`);
@@ -90,7 +90,7 @@ if (!quest) {
 
 					if (progress >= secondsNeeded) {
 						console.log("Quest completed!");
-						console.log("✅ Script made by no_more ✅");
+						console.log("✅ Script made by EHqador ✅");
 
 						RunningGameStore.getRunningGames = realGetRunningGames;
 						RunningGameStore.getGameForPID = realGetGameForPID;
@@ -121,7 +121,7 @@ if (!quest) {
 
 				if (progress >= secondsNeeded) {
 					console.log("Quest completed!");
-					console.log("✅ Script made by no_more ✅");
+					console.log("✅ Script made by EHqador ✅");
 
 					ApplicationStreamingStore.getStreamerActiveStreamMetadata = realFunc;
 					FluxDispatcher.unsubscribe("QUESTS_SEND_HEARTBEAT_SUCCESS", fn);
@@ -154,7 +154,7 @@ if (!quest) {
 				}
 			}
 			console.log("Quest completed!");
-			console.log("✅ Script made by no_more ✅");
+			console.log("✅ Script made by EHqador ✅");
 		};
 		fn();
 	}
