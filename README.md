@@ -30,4 +30,4 @@ A lightweight JavaScript tool that automates Discord quest progress (watching vi
 
 ## 📜 License
 
-[MIT License](LICENSE) © 2025 no_more
+[MIT License](LICENSE) © 2025 EHqador
